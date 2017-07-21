@@ -62,3 +62,8 @@ if answer2 == (no) and answer1 == (yes) and answer3 == (yes) and answer4 == (no)
     print("'\n\n'It's 11:57 and all you need is to finish citing your last source and submit your paper! CONGRATULATIONS! You made it with just seconds to spare. You should probably call your best friend now, though...")
 if answer2 == (no) and answer1 == (no) and answer3 == (no) and answer4 == (yes):
     print("'\n\n'You finished in time! You submitted it with five minutes left till 11:59 pm! You may not have gone to the mandatory debate meeting and got a lecture from your mom, at least you finished in time! That, and you were able to be there for your best friend when she needed you most.")
+
+if answer2 == (yes) and answer1 == (yes) and answer3 == (yes) and answer4 == (no):
+    print("'\n\n'It's 11:59 pm and you don't have all 15 pages done. You can't submit an incomplete assignment so you accept the fact that your paper will be late and that half a letter grade will be taken off. Since it's already late, you no longer rush and just take your time. You'd rather submit an amazing essay late than a crappy essay on time! At least you have were there for her best friend when she needed you the most!")
+
+exit()
